@@ -1,7 +1,29 @@
-h1 {
-    color:rgb(24, 104, 0);
+#header {
+    color:rgb(101, 223, 65);
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
 }
-h2{
-    color:forestgreen;
+h1{
+    font-size:3em
+}
+h2 {
+    color:rgb(7, 156, 51);
+}
+h2, h3, h4, h5, h6{
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    background-color:rgb(100, 100, 100);
+    color:rgb(0, 0, 0);
+    font-size:1.15em
+}
+ul{
+    font-style:italic;
+}
+#People {
+    font-weight:bold;
+}
+.aboutmesection{
+    color:black;
 }
