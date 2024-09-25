@@ -43,3 +43,12 @@ nav li{
 nav a :active{
     color: aliceblue;
 }
+table{
+    border:solid 2px black;
+    border-collapse: collapse;
+}
+tr, td, th{
+    border: solid 2px black;
+    padding:7px;
+    width: 200px;
+}
