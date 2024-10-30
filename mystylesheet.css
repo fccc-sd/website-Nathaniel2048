@@ -46,9 +46,19 @@ nav a :active{
 table{
     border:solid 2px black;
     border-collapse: collapse;
+    margin: 20px 20px;
 }
 tr, td, th{
     border: solid 2px black;
     padding:7px;
     width: 200px;
+}
+iframe{
+    min-width: 820px;
+    min-height: 625px;
+}
+img{
+    margin: 10px 15px;
+    border: solid thick black;
+    float: left;
 }
