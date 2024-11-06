@@ -3,9 +3,11 @@
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-weight:bold;
+    background-color:rgb(37, 36, 36);
+    background-size:2em
 }
 h1{
-    font-size:3em
+    font-size:3em;
 }
 h2 {
     color:rgb(7, 156, 51);
@@ -26,4 +28,42 @@ ul{
 }
 .aboutmesection{
     color:black;
+}
+nav{
+    background-color: black;
+    line-height: 2em;
+    display: block;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+nav a :active{
+    color: aliceblue;
+}
+table{
+    border:solid 2px black;
+    border-collapse: collapse;
+    margin: 20px 20px;
+}
+tr, td, th{
+    border: solid 2px black;
+    padding:7px;
+    width: 200px;
+}
+iframe{
+    min-width: 820px;
+    min-height: 625px;
+}
+img{
+    margin: 10px 15px;
+    border: solid thick black;
+    float: left;
+}
+input{
+    padding: 5px;
+    margin: 10px 15px;
+    border: solid thin black;
 }
